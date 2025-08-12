@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"task_api/task_api/internal/config"
+	"task_api/task_api/cmd/config"
 	"task_api/task_api/internal/graceful"
 	"task_api/task_api/internal/logger"
 	"task_api/task_api/internal/task"
