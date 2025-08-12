@@ -16,7 +16,7 @@ API для управления задачами с фильтрацией по 
    cd tasks_api
 
 2. Запустить приложение:
-go run cmd/main.go  
+go run cmd/task_api/main.go  
 
 ## API будет доступно на:
 http://localhost:8080
