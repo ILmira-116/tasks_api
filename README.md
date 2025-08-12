@@ -14,24 +14,24 @@ API для управления задачами с фильтрацией по 
    ```bash
    git clone git@github.com:ILmira-116/tasks_api.git
    cd tasks_api
+
 2. Запустить приложение:
-```bash
-   go run cmd/main.go  
+go run cmd/main.go  
 
 ## API будет доступно на:
 http://localhost:8080
 
-Пример запросов
-Получить все задачи:
+## Пример запросов
+# Получить все задачи:
 GET http://localhost:8080/tasks
 
-Получить задачи со статусом:
+# Получить задачи со статусом:
 GET http://localhost:8080/tasks?status=active
 
-Получить задачу по ID:
+# Получить задачу по ID:
 GET http://localhost:8080/tasks/{id}
 
-Создать задачу:
+# Создать задачу:
 POST http://localhost:8080/tasks
 Content-Type: application/json
 
@@ -42,5 +42,5 @@ Content-Type: application/json
   "Status": "active"
 }
 
-Затраченное время
+# Затраченное время: 
 Около 4 часов (включая настройку окружения, разработку API, тестирование в Incomnia и загрузку в GitHub).
